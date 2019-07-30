@@ -1,0 +1,7 @@
+
+
+The NIH X-Ray dataset is one of the largest public datasets for machine learning on medical data. For this problem, I trained a convolutional neural network to diagnose only based on the X-ray image. There are 12 possible diseases within the labels for this dataset.
+
+The main issues associated with this dataset is the sparsity of the labels. For most X-ray images, the person does not have a disease. Also, in the cases where a person has a disease, it is most common to have only a single disease. 
+
+This means that the dataset suffers from a sparse signal and high levels of data imbalance. To solve this issue, I attempted to use a weighted loss function that gives more weight to the diseases that are less common in the dataset.

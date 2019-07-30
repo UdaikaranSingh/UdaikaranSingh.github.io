@@ -123,22 +123,36 @@
             <td width="50%" valign="middle">
               <heading>Posts</heading>
             </td>
-          </tr href = "google.com">
+          </tr>
+
+
+
           <tr>
             <td id = "image" width = "50%">
               <a href="google.com"> 
-                <img src="images/mnist.png", alt = "MNIST", style="width:400px;height:300px;border:0;">
+                <img src="images/nih_x_ray.jpeg", alt = "MNIST", style="width:400px;height:300px;border:0;">
               </a>
             </td>
             <td width="50%">
-              <a href="blog-post">
-                <h1 align="center"> MNIST </h1>
+              <a href="blog/x_ray_post.html">
+                <h1 align="center"> X-Ray Classification </h1>
               </a>
-              <p align="left"> My dog breed reviews include positives AND negatives – good and bad traits and characteristics – on temperament, personality, behavior, exercise requirements, shedding, etc.
-                Reviews are based on my personal and professional experiences – over 35 years working with dogs – plus my extensive research. I'm Michele Welton – breed selection consultant, obedience instructor, and published author of 15 dog books.
-              If you're trying to choose a dog breed, please be sure to visit my articles on choosing & finding the right dog.</p>
+              <p>
+                The NIH X-Ray dataset is one of the largest public datasets for machine learning on medical data. For this problem, I trained a convolutional neural network to diagnose only based on the X-ray image.
+              </p>
+              <p>
+                The main issues associated with this dataset is the sparsity of the labels. In most cases, a person does not have a disease, and some diseases are very rare in the dataset. This means that the dataset suffers from a sparse signal and high levels of data imbalance. To solve this issue, I attempted to use a weighted loss function that gives more weight to the diseases that are less common in the dataset.
+              </p>
+              <p align="center">
+                <a href="blog/x_ray_post.html"> post </a> / <a href="https://github.com/UdaikaranSingh/CNN-X-ray-classification"> GitHub </a>
+              </p>
+                
             </td>
           </tr>
+
+
+
+
           <!-- This is the start of the example --->
           <!-- note: images are of width 400 and height 300 --->
           <!--
