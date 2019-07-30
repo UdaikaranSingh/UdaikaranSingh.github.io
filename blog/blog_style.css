@@ -1,0 +1,39 @@
+.website-header {
+	font-family: 'Lato', Verdana, Helvetica, sans-serif;
+	font-size: 20px;
+}
+website-header.box {
+	width: 100%;
+}
+
+.date {
+	...
+}
+
+.title {
+	...
+}
+
+img {
+	...
+}
+
+.subtitle {
+	...
+}
+
+.image-subtitle {
+	...
+}
+
+.code {
+	...
+}
+
+.LaTeX-math {
+	...
+}
+
+footer {
+	...
+}
