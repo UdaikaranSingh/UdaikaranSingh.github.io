@@ -118,23 +118,115 @@
           </tr>
         </table>
         <hr>
+
+        <!-- Experience Table-->
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="50%" valign="middle">
-              <heading>Posts</heading>
+              <heading>Experience</heading>
             </td>
           </tr>
 
 
+          <!-- Summer Research --->
+          <tr>
+            <td id = "image" width = "50%">
+              <a href="https://pages.ucsd.edu/~ztu/"> 
+                <img src="images/cyclegan.jpg", alt = "Cycle Gan", style="width:400px;height:300px;border:0;">
+              </a>
+            </td>
+            <td width="50%">
+              <a href="http://pages.ucsd.edu/~ztu/">
+                <h1 style="margin-bottom: 0px; padding-bottom: 0px" align="center"> Undergraduate Research Assistant </h1>
+              </a>
+              <p>
+                Over the summer of 2019, I worked as an undergraduate assistant for the <i>Machine Learning, Perception, and Cognition Lab.</i>
+              </p>
+              <p>
+                I helped in implementing neural network architectures and training procedures on modern generatives models (GAN), such as <a href="https://junyanz.github.io/CycleGAN/">CycleGAN</a> and <a href="https://arxiv.org/pdf/1605.09782.pdf"> BiGAN </a>. 
+              </p>
+              <p>
+                Also, I prepared for my own research by reviewing the modern literature on reinforcement learning and time-series analysis.
+              </p>
+              <p align="center" style="font-size: 14px">
+                 Summer 2019 <i>(July 15th - Late September)</i>
+              </p>
+            </td>
+          </tr>
+
+          <!-- Data Science Tutoring --->
+          <tr>
+            <td id = "image" width = "50%">
+              <a href="https://cse.ucsd.edu/"> 
+                <img src="images/ucsd_cse.jpg", alt = "UCSD CSE Department", style="width:400px;height:150px;border:0;">
+              </a>
+            </td>
+            <td width="50%">
+              <a href="https://cse.ucsd.edu/">
+                <h1 align="center"> Data Science Tutor </h1>
+              </a>
+              <p>
+                I tutored for an introduction to data structures and theory of data science course. As part of this job, I held weekly office hours, aided in creating homework problems, and curated new lecture material.
+              </p>
+              <p>
+                Some of the topics features in courses I tutored for include: <i>graph theory,
+                probability theory, linear algebra, & basic data structures</i>.
+              </p>
+              <p align="center" style="font-size: 14px">
+                <i> September 2018 - Present</i>
+              </p>
+            </td>
+          </tr>
+
+
+        </table>
+        
+
+        <hr>
+
+
+        <!-- Project Table-->
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tr>
+            <td width="50%" valign="middle">
+              <heading>Projects</heading>
+            </td>
+          </tr>
+
+
+
+          <!-- Shakespeare Generator --->
+          <tr>
+            <td id = "image" width = "50%">
+              <a href="index.html"> 
+                <img src="images/shakespeare.jpg", alt = "Shakespeare", style="width:400px;height:300px;border:0;">
+              </a>
+            </td>
+            <td width="50%">
+              <a href="index.html">
+                <h1 align="center"> Shakespeare RNN </h1>
+              </a>
+              <p>
+                I implemented a recurrent neural network (RNN), specifically using an LSTM <i>(Long Short Term Memory)</i> module in order to learn the language associated with Shakespeare. 
+              </p>
+              <p>
+                I then used this network trained on Hamlet to generate text. In theory, this generates text representative of a piece of text within Hamlet.
+              </p>
+              <p align="center" style="font-size: 14px">
+                <a href="https://nbviewer.jupyter.org/github/UdaikaranSingh/shakespeare_rnn/blob/master/main.ipynb" style="font-size: 14px"> Notebook </a> / <a href="https://github.com/UdaikaranSingh/shakespeare_rnn" style="font-size: 14px"> GitHub </a> / 8-6-2019
+              </p>
+            </td>
+          </tr>
+
           <!-- X-Ray Classification Post --->
           <tr>
             <td id = "image" width = "50%">
-              <a href="google.com"> 
+              <a href="https://github.com/UdaikaranSingh/CNN-X-ray-classification"> 
                 <img src="images/nih_x_ray.jpeg", alt = "MNIST", style="width:400px;height:300px;border:0;">
               </a>
             </td>
             <td width="50%">
-              <a href="blog/x_ray_post.html">
+              <a href="https://github.com/UdaikaranSingh/CNN-X-ray-classification">
                 <h1 align="center"> X-Ray Classification </h1>
               </a>
               <p>
@@ -144,35 +236,11 @@
                 The main issues associated with this dataset is the sparsity of the labels. In most cases, a person does not have a disease, and some diseases are very rare in the dataset. This means that the dataset suffers from a sparse signal and high levels of data imbalance. To solve this issue, I attempted to use a weighted loss function that gives more weight to the diseases that are less common in the dataset.
               </p>
               <p align="center" style="font-size: 14px">
-                <a href="blog/x_ray_post.html" style="font-size: 14px"> Post </a> / <a href="https://github.com/UdaikaranSingh/CNN-X-ray-classification" style="font-size: 14px"> GitHub </a> / 7-30-2019
+                <a href="https://github.com/UdaikaranSingh/CNN-X-ray-classification" style="font-size: 14px"> GitHub </a> / 7-30-2019
               </p>
                 
             </td>
           </tr>
-
-          <!-- Beer Review Generator --->
-          <tr>
-            <td id = "image" width = "50%">
-              <a href="blog/beer_review_post.html"> 
-                <img src="images/char_rnn.jpeg", alt = "MNIST", style="width:400px;height:300px;border:0;">
-              </a>
-            </td>
-            <td width="50%">
-              <a href="blog/beer_review_post.html">
-                <h1 align="center"> Beer Review RNN </h1>
-              </a>
-              <p>
-                The NIH X-Ray dataset is one of the largest public datasets for machine learning on medical data. For this problem, I trained a convolutional neural network to diagnose only based on the X-ray image.
-              </p>
-              <p>
-                The main issues associated with this dataset is the sparsity of the labels. In most cases, a person does not have a disease, and some diseases are very rare in the dataset. This means that the dataset suffers from a sparse signal and high levels of data imbalance. To solve this issue, I attempted to use a weighted loss function that gives more weight to the diseases that are less common in the dataset.
-              </p>
-              <p align="center" style="font-size: 14px">
-                <a href="blog/beer_review_post.html" style="font-size: 14px"> Post </a> / <a href="https://github.com/UdaikaranSingh/RNN-Beer-Review-Generator" style="font-size: 14px"> GitHub </a> / 8-6-2019
-              </p>
-            </td>
-          </tr>
-
 
 
           <!-- This is the start of the example --->
