@@ -245,6 +245,35 @@
             </td>
           </tr>
 
+          <!-- K-Armed Bandit Problems --->
+          <tr>
+            <td id = "image" width = "50%">
+              <a href="https://nbviewer.jupyter.org/github/UdaikaranSingh/K_armed_bandit/blob/master/K_armed_bandit%20simulation.ipynb"> 
+                <img src="images/K_armed_bandit.png", alt = "K-Armed Bandit", style="width:400px;height:300px;border:0;">
+              </a>
+            </td>
+            <td width="50%">
+              <a href="https://nbviewer.jupyter.org/github/UdaikaranSingh/K_armed_bandit/blob/master/K_armed_bandit%20simulation.ipynb">
+                <h1 align="center"> K-Armed Bandit </h1>
+              </a>
+              <p>
+                In this notebook, I attempt to do some analysis on the K-armed bandit problem. The K-armed bandit problem is a simple, but elegent problem that is frequently used as an introductory problem to reinforcement learning. It is useful, because its solutions demonstrate the need for exploration within an uncertain environment.
+              </p>
+              <p>
+                The K-armed bandit problem essentially boils down to that there are k choices their own distinct underlying hidden distributions. You can only learn about those distributions by sampling them. The goal is to gather as many "points" (or reward) as possible. Therefore, there must be a balance created between exploring the bandits to further understand them and picking the best bandit based on known information.
+              </p>
+              <p>
+              	The main conclusion I found from this analysis is that using an optimistic initialization of the policy with a low epsilon value in the e-greedy exploration algorithm is ideal. My hypothesis is that the optimistic initialization promotes exploration early on, thus causing the agent to easily find the "ideal" bandit. Therefore, later exploration becomes useless. However, I think this is only limited to cases of static underlying distributions to the bandits.
+              </p>
+              <p align="center" style="font-size: 14px">
+                <a href="https://nbviewer.jupyter.org/github/UdaikaranSingh/K_armed_bandit/blob/master/K_armed_bandit%20simulation.ipynb" style="font-size: 14px"> Notebook </a> / 9-07-2019
+              </p>
+                
+            </td>
+          </tr>
+         
+          
+
 
           <!-- This is the start of the example --->
           <!-- note: images are of width 400 and height 300 --->
