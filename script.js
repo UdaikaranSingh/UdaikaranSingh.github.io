@@ -134,7 +134,7 @@ function miracle(){
     
     });
     var slot = document.getElementById("content");
-    slot.innerHTML = '<iframe width="500px" height="300px" src="https://www.youtube.com/embed/OJzpoj_NxqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><section class = "buttons flex-container" id = "content"><button onclick = "miracle()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">Video</a></button><button onclick = "miracleText()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">More Info.</a></button></section>';
+    slot.innerHTML = '<iframe width="500px" height="300px" src="https://www.youtube.com/embed/dzRRi2QcSEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><section class = "buttons flex-container" id = "content"><button onclick = "miracle()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">Video</a></button><button onclick = "miracleText()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">More Info.</a></button></section>';
 
 }
 function no_call(){
@@ -251,7 +251,7 @@ function no_call(){
         }
     });
     var slot = document.getElementById("content");
-    slot.innerHTML = '<iframe width="500px" height="300px" src="https://www.youtube.com/embed/vS40iaejHT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><section class = "buttons flex-container" id = "content"><button onclick = "no_call()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">Video</a></button><button onclick = "no_call_text()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">More Info.</a></button></section>';
+    slot.innerHTML = '<iframe width="500px" height="300px" src="https://www.youtube.com/embed/xjvZHMod_3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><section class = "buttons flex-container" id = "content"><button onclick = "no_call()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">Video</a></button><button onclick = "no_call_text()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">More Info.</a></button></section>';
 }
 function injury(){
     Highcharts.chart('viz-chart', {
