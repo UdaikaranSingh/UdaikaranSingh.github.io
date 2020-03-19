@@ -1,303 +1,56 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta name=viewport content="width=800">
-  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
-  <style type="text/css">
-    /* Color scheme stolen from Sergey Karayev */
-    
-    a {
-      color: #47484a;
-      text-decoration: none;
-    }
-    
-    a:focus,
-    a:hover {
-      color: #dadde3;
-      text-decoration: none;
-    }
-    
-    body,
-    td,
-    th,
-    tr,
-    p,
-    a {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px
-    }
-    
-    strong {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px;
-    }
-    
-    heading {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 22px;
-    }
-    
-    papertitle {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px;
-      font-weight: 700
-    }
-    
-    name {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 32px;
-    }
-    
-    .one {
-      width: 160px;
-      height: 160px;
-      position: relative;
-    }
-    
-    .two {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-    }
-    
-    .fade {
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-    }
-
-    .footer {
-      margin-left: 20px;
-      margin-right: 20px;
-      padding-left: 200px;
-      padding-right: 200px;
-      font-family: Times New Roman;
-      font-size: 16px;
-      margin-top: 0px;
-    }
-    
-    span.highlight {
-      background-color: #F1F1F1;
-    }
-  </style>
-  <link rel="icon" type="image/png" href="images/faceImage.jpg">
-  <title>Udai Singh</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <!--<link href="https://fonts.googleapis.com/css?family=Montserrat%7CPaytone+One&display=swap" rel="stylesheet" />-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+	<title>Are the Saints Unlucky?</title>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<style>* { padding: 0px; margin: 4px; }</style>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="script.js"></script>
+	<script src="https://code.highcharts.com/modules/data.js"></script>
+	<script src="https://code.highcharts.com/modules/drilldown.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+	<script src="https://code.highcharts.com/highcharts-more.js"></script>
 </head>
-
-<body bgcolor="#F1F1F1">
-  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tr>
-      <td>
-        <table id = "introduction" width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td width="67%" valign="middle">
-              <p align="center">
-                <name>Udaikaran Singh</name>
-              </p>
-              <p> 
-                <b>Bio </b>I am currently a student at UCSD studying <a href="https://datascience.ucsd.edu/"> Data Science </a>. I also work as an undergradaute researcher assistant for the <a href="https://pages.ucsd.edu/~ztu/"> Machine Learning, Perception, and Cognition Lab</a> headed by professor Zhuowen Tu.
-              </p>
-              <p>
-                My educational focus is on machine learning, specifically the fields of deep reinforcement learning and using generative models for image-to-image translation. My long-term goal is to use machine learning and data analysis tools to create a Hedge Fund.
-              </p>
-              <p align=center>
-                <a href="mailto:www.udaikaran@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="https://github.com/UdaikaranSingh">Github</a> &nbsp/&nbsp
-                <a href="data/resume_2.pdf">Resume</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/udaikaran-singh-a38675112/"> LinkedIn </a>
-              </p>
-            </td>
-            <td width="33%">
-              <img src="images/IMG_0802.png"style="height:70%;" title="Profile Picture"/>
-            </td>
-          </tr>
-        </table>
-        <hr>
-
-        <!-- Experience Table-->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr></tr>>
-            <td width="50%" valign="middle">
-              <H1>Experience</H1>
-            </td>
-          </tr>
-
-
-          <!-- Summer Research --->
-          <tr>
-            <td id = "image" width = "50%">
-              <a href="https://pages.ucsd.edu/~ztu/"> 
-                <img src="images/cyclegan.jpg", alt = "Cycle Gan", style="width:400px;height:300px;border:0;">
-              </a>
-            </td>
-            <td width="50%">
-              <a href="http://pages.ucsd.edu/~ztu/">
-                <h1 style="margin-bottom: 0px; padding-bottom: 0px" align="center"> Undergraduate Research Assistant </h1>
-              </a>
-              <p>
-                Over the summer of 2019, I worked as an undergraduate assistant for the <i>Machine Learning, Perception, and Cognition Lab.</i>
-              </p>
-              <p>
-                I helped in implementing neural network architectures and training procedures on modern generatives models (GAN), such as <a href="https://junyanz.github.io/CycleGAN/">CycleGAN</a> and <a href="https://arxiv.org/pdf/1605.09782.pdf"> BiGAN </a>. 
-              </p>
-              <p>
-                Also, I prepared for my own research by reviewing the modern literature on reinforcement learning and time-series analysis.
-              </p>
-              <p align="center" style="font-size: 14px">
-                 Summer 2019 <i>(July 15th - Late September)</i>
-              </p>
-            </td>
-          </tr>
-
-
-
-          <!-- Data Science Tutoring --->
-          <tr>
-            <td id = "image" width = "50%">
-              <a href="https://cse.ucsd.edu/"> 
-                <img src="images/ucsd_cse.jpg", alt = "UCSD CSE Department", style="width:400px;height:150px;border:0;">
-              </a>
-            </td>
-            <td width="50%">
-              <a href="https://cse.ucsd.edu/">
-                <h1 align="center"> Data Science Tutor </h1>
-              </a>
-              <p>
-                I tutored for an introduction to data structures and theory of data science course. As part of this job, I held weekly office hours, aided in creating homework problems, and curated new lecture material.
-              </p>
-              <p>
-                Some of the topics features in courses I tutored for include: <i>graph theory,
-                probability theory, linear algebra, & basic data structures</i>.
-              </p>
-              <p align="center" style="font-size: 14px">
-                <i> September 2018 - Present</i>
-              </p>
-            </td>
-          </tr>
-
-
-        </table>
-        
-
-        <hr>
-
-
-        <!-- Project Table-->
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td width="50%" valign="middle">
-              <H1>Projects</H1>
-            </td>
-          </tr>
-
-
-
-          <!-- Shakespeare Generator --->
-          <tr>
-            <td id = "image" width = "50%">
-              <a href="index.html"> 
-                <img src="images/shakespeare.jpg", alt = "Shakespeare", style="width:400px;height:300px;border:0;">
-              </a>
-            </td>
-            <td width="50%">
-              <a href="index.html">
-                <h1 align="center"> Shakespeare RNN </h1>
-              </a>
-              <p>
-                I implemented a recurrent neural network (RNN), specifically using an LSTM <i>(Long Short Term Memory)</i> module in order to learn the language associated with Shakespeare. 
-              </p>
-              <p>
-                I then used this network trained on Hamlet to generate text. In theory, this generates text representative of a piece of text within Hamlet.
-              </p>
-              <p align="center" style="font-size: 14px">
-                <a href="UdaikaranSingh/shakespeare_rnn/blob/master/main.ipynb" style="font-size: 14px"> Notebook </a> / <a href="https://github.com/UdaikaranSingh/shakespeare_rnn" style="font-size: 14px"> GitHub </a> / 8-6-2019
-              </p>
-            </td>
-          </tr>
-
-
-          <!-- X-Ray Classification Post --->
-          <tr>
-            <td id = "image" width = "50%">
-              <a href="https://github.com/UdaikaranSingh/CNN-X-ray-classification"> 
-                <img src="images/nih_x_ray.jpeg", alt = "MNIST", style="width:400px;height:300px;border:0;">
-              </a>
-            </td>
-            <td width="50%">
-              <a href="https://github.com/UdaikaranSingh/CNN-X-ray-classification">
-                <h1 align="center"> X-Ray Classification </h1>
-              </a>
-              <p>
-                The NIH X-Ray dataset is one of the largest public datasets for machine learning on medical data. For this problem, I trained a convolutional neural network to diagnose only based on the X-ray image.
-              </p>
-              <p>
-                The main issues associated with this dataset is the sparsity of the labels. In most cases, a person does not have a disease, and some diseases are very rare in the dataset. This means that the dataset suffers from a sparse signal and high levels of data imbalance. To solve this issue, I attempted to use a weighted loss function that gives more weight to the diseases that are less common in the dataset.
-              </p>
-              <p align="center" style="font-size: 14px">
-                <a href="https://github.com/UdaikaranSingh/CNN-X-ray-classification" style="font-size: 14px"> GitHub </a> / 7-30-2019
-              </p>
-                
-            </td>
-          </tr>
-
-          <!-- K-Armed Bandit Problems --->
-          <tr>
-            <td id = "image" width = "50%">
-              <a href="https://nbviewer.jupyter.org/github/UdaikaranSingh/K_armed_bandit/blob/master/K_armed_bandit%20simulation.ipynb"> 
-                <img src="images/K_armed_bandit.png", alt = "K-Armed Bandit", style="width:400px;height:300px;border:0;">
-              </a>
-            </td>
-            <td width="50%">
-              <a href="https://nbviewer.jupyter.org/github/UdaikaranSingh/K_armed_bandit/blob/master/K_armed_bandit%20simulation.ipynb">
-                <h1 align="center"> K-Armed Bandit </h1>
-              </a>
-              <p>
-                In this notebook, I attempt to do some analysis on the K-armed bandit problem. The K-armed bandit problem is a simple, but elegent problem that is frequently used as an introductory problem to reinforcement learning. It is useful, because its solutions demonstrate the need for exploration within an uncertain environment.
-              </p>
-              <p>
-                The K-armed bandit problem essentially boils down to that there are k choices their own distinct underlying hidden distributions. You can only learn about those distributions by sampling them. The goal is to gather as many "points" (or reward) as possible. Therefore, there must be a balance created between exploring the bandits to further understand them and picking the best bandit based on known information.
-              </p>
-              <p>
-              	The main conclusion I found from this analysis is that using an optimistic initialization of the policy with a low epsilon value in the e-greedy exploration algorithm is ideal. My hypothesis is that the optimistic initialization promotes exploration early on, thus causing the agent to easily find the "ideal" bandit. Therefore, later exploration becomes useless. However, I think this is only limited to cases of static underlying distributions to the bandits.
-              </p>
-              <p align="center" style="font-size: 14px">
-                <a href="https://nbviewer.jupyter.org/github/UdaikaranSingh/K_armed_bandit/blob/master/K_armed_bandit%20simulation.ipynb" style="font-size: 14px"> Notebook </a> / 9-07-2019
-              </p>
-                
-            </td>
-          </tr>
-         
-          
-
-
-          <!-- This is the start of the example --->
-          <!-- note: images are of width 400 and height 300 --->
-          <!--
-          <tr>
-            <td id = "image" width = "50%">
-              <a href="google.com"> 
-                <img src="images/mnist.png", alt = "MNIST", style="width:400px;height:300px;border:0;">
-              </a>
-            </td>
-            <td width="50%">
-              <a href="blog-post">
-                <h1 align="center"> MNIST </h1>
-              </a>
-              <p align="left"> My dog breed reviews include positives AND negatives – good and bad traits and characteristics – on temperament, personality, behavior, exercise requirements, shedding, etc.
-                Reviews are based on my personal and professional experiences – over 35 years working with dogs – plus my extensive research. I'm Michele Welton – breed selection consultant, obedience instructor, and published author of 15 dog books.
-              If you're trying to choose a dog breed, please be sure to visit my articles on choosing & finding the right dog.</p>
-            </td>
-          </tr>
-          -->
-          <!-- This is the end of the example --->
-        </table>
-
-       
+<body style="background-color:rgb(252, 240, 215);" onload = 'init()'>
+	<header>
+		<!--1- header to the file-->
+		<h1 style = 'text-align: center;'><span class = 'gold'>Are</span><span>the</span><span class = 'gold'>Saints</span><span>Unlucky?</span></h1>
+		<h3 style = 'text-align: center;'>A look into whether Saint’s playoff losses were due to bad luck or something more.</h3>
+		<img class = 'center' src="images/New_Orleans_Saints_logo.svg" alt="New Orlean Saints">
+	</header>
+	<main>
+		<section class = "buttons flex-container">
+			<button onclick = 'init()' style="background:transparent; border:none; color:transparent;"><a href="#" class="button" id = 'intro'>Introduction</a></button>
+			<button onclick = 'miracle()' style="background:transparent; border:none; color:transparent;"><a href="#" class="button" id = 'miracle'>Minnesota Miracle</a></button>
+			<button onclick = 'no_call()' style="background:transparent; border:none; color:transparent;"><a href="#" class="button" id = 'no-call'>The No Call</a></button>
+			<button onclick = 'injury()' style="background:transparent; border:none; color:transparent;"><a href="#" class="button" id = 'brees-Injury'>The Brees Injury</a></button>
+		</section>
+		
+		<section class="flex-container">
+			<div class = 'flex-item chart'>
+				<div id="viz-chart"></div>		
+			</div>
+			<div class = 'flex-item blurb' id = 'content'>
+				<p>test</p>
+			</div>
+		</section>
+		<!--
+		<section class="flex-container">
+			<div class = 'flex-item chart'>
+				<div id="viz-chart"></div>		
+			</div>
+			<div class = 'flex-item blurb'>
+				<iframe width="500px" height="300px" src="https://www.youtube.com/embed/OJzpoj_NxqQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<section class = "buttons flex-container" id = 'content'>
+					<a href="#" class="small_button">Video</a>
+					<a href="#" class="small_button">More Info.</a>
+				</section>
+			</div>
+		</section>
+		-->
 </body>
-
-</html>
