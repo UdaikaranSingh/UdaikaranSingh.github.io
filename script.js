@@ -134,7 +134,7 @@ function miracle(){
     
     });
     var slot = document.getElementById("content");
-    slot.innerHTML = '<iframe width="500px" height="300px" src="https://www.youtube.com/embed/dzRRi2QcSEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><section class = "buttons flex-container" id = "content"><button onclick = "miracle()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">Video</a></button><button onclick = "miracleText()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">More Info.</a></button></section>';
+    slot.innerHTML = '<iframe width="500px" height="300px" src="https://www.youtube.com/embed/2dkhK4Gx-kk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><section class = "buttons flex-container" id = "content"><button onclick = "miracle()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">Video</a></button><button onclick = "miracleText()" style="background:transparent; border:none; color:transparent;"><a href="#" class="small_button">More Info.</a></button></section>';
 
 }
 function no_call(){
