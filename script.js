@@ -262,7 +262,7 @@ function injury(){
         },
     
         title: {
-            text: 'Dree Brees Prior to vs. Post Brees Injury',
+            text: 'Drew Brees Prior vs. Post Injury',
             x:0 
         },
         subtitle: {
